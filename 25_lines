@@ -1,0 +1,43 @@
+def new_line():         #this defines new_line
+
+    print('.')          #this prints a single '.'
+
+def three_lines():      #this defines three_lines
+
+    new_line()          #1st line
+
+    new_line()          #2nd line
+
+    new_line()          #3rd line
+
+def nine_lines():       #this defines nine_lines
+
+    three_lines()       #3 lines
+
+    three_lines()       #6 lines
+
+    three_lines()       #9 lines
+
+def clear_screen():     #this defines clear_screen
+
+    nine_lines()        #9 lines
+
+    print('9')          #prints '9'
+
+    nine_lines()        #18 lines
+
+    print('18')         #prints '18'
+
+    three_lines()       #21 lines
+
+    print('21')         #prints '21'
+
+    three_lines()       #24 lines
+
+    print('24')         #prints '24'
+
+    new_line()          #25 lines
+
+    print('^ THIS IS THE 25TH LINE ^')
+
+clear_screen()          #calls the function clear_screen
