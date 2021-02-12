@@ -1,0 +1,9 @@
+a = 'outside'                #i defined the global variable /a/ as /'outside'/
+
+def parallel_variables():    #this defines the function /parallel_variables/
+    a = 'local'              #this defines the local var /a/ as /'local'/
+    print(a)                 #this prints local var /a/
+
+print(a)                     #this prints global var /a/
+
+parallel_variables()         #this calls function /parallel_variables/, and prints local var /a/ which was retained internally for the duration of function
