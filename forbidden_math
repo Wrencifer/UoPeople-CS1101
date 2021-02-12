@@ -1,0 +1,9 @@
+#wherein i discover that data inputted into Python is automatically stored as a string
+
+def forbidden_math():             #in this function, i tried to make a simple addition machine
+    a = input()                   #this line contains the first argument
+    b = input()                   #this line contains the second argument
+    c = a + b                     #this line contains the parameter
+    print(c)                      #this line outputs the parameter
+
+forbidden_math()                  #this line calls the function but it has a fun surprise! it doesn't do math! it concatenates!
