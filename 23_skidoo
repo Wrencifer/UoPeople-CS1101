@@ -1,0 +1,4 @@
+skidoo = 23                             #in this function, i created a variable /skidoo/
+print(skidoo + skidoo + skidoo)         #this is an expression. it adds /skidoo/ to itself
+print('23 skidoo')                      #this prints a string
+print(skidoo, 'skidoo')                 #this prints the value of skidoo then combines it with the string /'skidoo'/
