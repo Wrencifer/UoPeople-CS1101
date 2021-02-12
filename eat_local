@@ -1,0 +1,7 @@
+def eat_local():                        #in this function, i'm playing with printing values again
+    local = 'food'                      #the variable local equals /'food'/ i had to add quote marks around it for the python to recognize the text
+    print('local', local)               #this line prints the string /'local'/ and the value of /local/, or "local food"
+
+eat_local()                             #this calls the function /eat_local/
+
+print(local)                            #this attempts to call the local variable from inside the function. it cannot.
