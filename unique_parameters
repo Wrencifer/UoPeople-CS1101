@@ -1,0 +1,7 @@
+def the_unique_parameter(uni_pam):                #this defines the function /unique_parameters/ as /uni_pam/
+    print(uni_pam, 'is the unique parameter')     #this prints /uni_pam/ and a string of text
+    print(uni_pam, 'is the answer')               #diddo
+    print("are you ready for", uni_pam)           #this prints a string before /uni_pam/
+
+the_unique_parameter('42')                        #the sample argument is /42/, and the function calls back through itself,
+                                                  #/uni_pam is now defined as /42/
