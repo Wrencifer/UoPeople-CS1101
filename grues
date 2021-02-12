@@ -1,0 +1,11 @@
+def grue_determiner():
+    input_a = input('how many grues are behind you?')
+    a = int(input_a)
+    if a <= 1:
+        print('i believe you are mistaken')
+    if a == 2:
+        print('i am so sorry')
+    if a > 2:
+        print('and they are all smiling')
+
+grue_determiner()
